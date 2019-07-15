@@ -44,7 +44,10 @@
 	}
 
 	
-	window.onload = renderIframe(homeId);
+	window.onload = function(){
+		let id = parseInt(location.hash.substr(1)) || homeId;
+		renderIframe(id);
+	};
 	//hash
 	window.onhashchange = function(){
 		let hash = location.hash;
