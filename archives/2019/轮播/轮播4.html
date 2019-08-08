@@ -120,7 +120,7 @@
 			//先顺序,再倒序
 			let flag = true;
 			fnType[1] = function(){
-				if(flag){
+				if(flag && n < arr.length-1){
 					n++;
 					flag = (n == arr.length-1) ? false : true;
 				}else{
