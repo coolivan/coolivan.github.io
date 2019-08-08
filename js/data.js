@@ -17,7 +17,7 @@ let database = [{
                 id: 3,
                 pid: 0,
                 title: "设计模式",
-            },{
+            }, {
                 id: 4,
                 pid: 0,
                 title: "纯CSS",
@@ -46,12 +46,6 @@ let database = [{
                 href: '../archives/2019/时钟/时钟.4.html'
             },
             // 轮播
-             {
-                 id: 201,
-                 pid: 2,
-                 title: "轮播1",
-                 href: '../archives/2019/轮播/轮播1.html'
-             },
             {
                 id: 202,
                 pid: 2,
@@ -64,12 +58,12 @@ let database = [{
                 title: "轮播3",
                 href: '../archives/2019/轮播/轮播3.html'
             },
-             {
+            {
                 id: 204,
-                 pid: 2,
-                 title: "轮播4",
-                 href: '../archives/2019/轮播/轮播4.html'
-             },
+                pid: 2,
+                title: "轮播4",
+                href: '../archives/2019/轮播/轮播4.html'
+            },
             {
                 id: 205,
                 pid: 2,
@@ -82,11 +76,11 @@ let database = [{
                 title: "轮播6",
                 href: '../archives/2019/轮播/轮播6.html'
             },
-             {
-                 id: 07,
-                 pid: 2,
-                 title: "轮播7",
-                 href: '../archives/2019/轮播/轮播7.html'
+            {
+                id: 07,
+                pid: 2,
+                title: "轮播7",
+                href: '../archives/2019/轮播/轮播7.html'
             },
             {
                 id: 208,
@@ -100,23 +94,11 @@ let database = [{
                 title: "轮播9",
                 href: '../archives/2019/轮播/轮播9.html'
             },
-             {
-                 id: 210,
-                 pid: 2,
-                 title: "轮播10",
-                 href: '../archives/2019/轮播/轮播10.html'
-             },
             {
-                id: 211,
+                id: 210,
                 pid: 2,
-                 title: "轮播11",
-                 href: '../archives/2019/轮播/轮播11.html'
-             },
-            {
-                id: 212,
-                pid: 2,
-                title: "轮播12",
-                href: '../archives/2019/轮播/轮播12.html'
+                title: "轮播10",
+                href: '../archives/2019/轮播/轮播10.html'
             },
             // 设计模式
             {
