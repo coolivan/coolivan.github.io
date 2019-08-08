@@ -64,12 +64,12 @@ let database = [{
                 title: "轮播3",
                 href: '../archives/2019/轮播/轮播3.html'
             },
-            // {
-            //     id: 204,
-            //     pid: 2,
-            //     title: "轮播4",
-            //     href: '../archives/2019/轮播/轮播4.html'
-            // },
+             {
+                id: 204,
+                 pid: 2,
+                 title: "轮播4",
+                 href: '../archives/2019/轮播/轮播4.html'
+             },
             {
                 id: 205,
                 pid: 2,
@@ -87,7 +87,7 @@ let database = [{
             //     pid: 2,
             //     title: "轮播7",
             //     href: '../archives/2019/轮播/轮播7.html'
-            // },
+            //},
             {
                 id: 208,
                 pid: 2,
