@@ -46,12 +46,12 @@ let database = [{
                 href: '../archives/2019/时钟/时钟.4.html'
             },
             // 轮播
-            // {
-            //     id: 201,
-            //     pid: 2,
-            //     title: "轮播1",
-            //     href: '../archives/2019/轮播/轮播1.html'
-            // },
+             {
+                 id: 201,
+                 pid: 2,
+                 title: "轮播1",
+                 href: '../archives/2019/轮播/轮播1.html'
+             },
             {
                 id: 202,
                 pid: 2,
@@ -82,12 +82,12 @@ let database = [{
                 title: "轮播6",
                 href: '../archives/2019/轮播/轮播6.html'
             },
-            // {
-            //     id: 307,
-            //     pid: 2,
-            //     title: "轮播7",
-            //     href: '../archives/2019/轮播/轮播7.html'
-            //},
+             {
+                 id: 307,
+                 pid: 2,
+                 title: "轮播7",
+                 href: '../archives/2019/轮播/轮播7.html'
+            },
             {
                 id: 208,
                 pid: 2,
@@ -100,18 +100,18 @@ let database = [{
                 title: "轮播9",
                 href: '../archives/2019/轮播/轮播9.html'
             },
-            // {
-            //     id: 210,
-            //     pid: 2,
-            //     title: "轮播10",
-            //     href: '../archives/2019/轮播/轮播10.html'
-            // },
-            // {
-            //     id: 211,
-            //     pid: 2,
-            //     title: "轮播11",
-            //     href: '../archives/2019/轮播/轮播11.html'
-            // },
+             {
+                 id: 210,
+                 pid: 2,
+                 title: "轮播10",
+                 href: '../archives/2019/轮播/轮播10.html'
+             },
+            {
+                id: 211,
+                pid: 2,
+                 title: "轮播11",
+                 href: '../archives/2019/轮播/轮播11.html'
+             },
             {
                 id: 212,
                 pid: 2,
