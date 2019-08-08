@@ -83,7 +83,7 @@ let database = [{
                 href: '../archives/2019/轮播/轮播6.html'
             },
              {
-                 id: 307,
+                 id: 07,
                  pid: 2,
                  title: "轮播7",
                  href: '../archives/2019/轮播/轮播7.html'
