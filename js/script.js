@@ -1,3 +1,11 @@
+// {
+// 	let s = document.createElement("script");
+// 	s.src = '../js/data.js';
+// 	document.querySelector('head').appendChild(s);
+// }
+
+
+
 /*菜单绑定数据*/
 {
 	let data = database[0].archives;
@@ -24,6 +32,7 @@
 	function render(pid){
 		let child = getChild(pid);
 		let ul='<ul>';
+		
 		child.forEach(v=>{
 			let childData = getChild(v.id);
 			let str = '';
@@ -48,10 +57,10 @@
 		let id = parseInt(location.hash.substr(1)) || homeId;
 		renderIframe(id);
 	};
+
 	//hash
 	window.onhashchange = function(){
-		let hash = location.hash;
-		let id = parseInt(hash.substr(1));
+		let id = parseInt(location.hash.substr(1));
 		renderIframe(id);
 	};
 	
@@ -64,18 +73,30 @@
 	}
 
 	// 根据homeid给菜单添加active
-	let menu_li = menu.querySelectorAll('li');
-	menu_li.forEach(v=>{
-		let id = parseInt(v.dataset['id']);
+	let menu_li = document.querySelectorAll('.menu>ul>li');
+	menu_li.forEach((v,k)=>{
+		let v_id = parseInt(v.dataset['id']);
+		let v_pid = parseInt(getSelf(v_id).id);
+
+		let now_id = parseInt(location.hash.substr(1)) || homeId;
+		let now_pid = getParent(now_id).id;
+		
 		// 一级
-		let pid = getParent(homeId).id;
-		if(id === pid){
+		if (now_pid === v_pid) {
 			v.className = 'active'
 		}
+
 		// 二级
-		if(id === homeId){
-			v.className = 'active'
-		}
+		let li_li = v.querySelectorAll('li');
+		li_li.forEach(li=>{
+			let li_id = parseInt(li.dataset['id']);
+			if (li_id === now_id) {
+				li.className = 'active'
+			}
+		})
+
+		
+		
 	})
 
 	
@@ -85,7 +106,6 @@
 
 ///*菜单点击事件*/
 {
-	let menu = document.querySelector('.menu');
 	let menu_ul_li = document.querySelectorAll('.menu>ul>li');
 	let menu_li_li = document.querySelectorAll('.menu li li');
 	menu_ul_li.forEach(v=>{

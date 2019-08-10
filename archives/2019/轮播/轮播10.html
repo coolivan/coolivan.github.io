@@ -73,8 +73,8 @@
 <body>
 	<div id="app" class="app">
 		<div class="figure">
-			<img src="img/1.jpg" alt="">
-			<img src="img/2.jpg" alt="">
+			<img src="../img/1.jpg" alt="">
+			<img src="../img/2.jpg" alt="">
 		</div>
 		<div class="prev">&lt;</div>
 		<div class="next">&gt;</div>
@@ -82,7 +82,7 @@
 
 	<p>支持点击切换、鼠标左右上下划动切换、鼠标滚轮切换、键盘左下上下切换</p>
 
-	<script src="js/mTween.js"></script>
+	<script src="../js/mTween.js"></script>
 	<script>
 		{
 			class Carousel {
@@ -98,7 +98,7 @@
 					this.h = this.figure.offsetHeight;
 					this.isMove = false;
 					this.timer = null;
-					this.imgArr = ['img/1.jpg', 'img/2.jpg', 'img/3.jpg', 'img/4.jpg'];
+					this.imgArr = ['../img/1.jpg', '../img/2.jpg', '../img/3.jpg', '../img/4.jpg'];
 					this.init();
 				}
 				init() {

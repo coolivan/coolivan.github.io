@@ -49,8 +49,7 @@ nav {
             text-overflow: ellipsis;
             color: $font;
             display: block;
-            height: 50px;
-            line-height: 50px;
+            line-height: 2.5em;
             transition: .5s;
 
             &:hover {
@@ -99,6 +98,9 @@ nav {
     padding: 0 1em;
     border-bottom: 1px solid black;
     background: $active;
+    a{
+        color: white;
+    }
 }
 
 main {
