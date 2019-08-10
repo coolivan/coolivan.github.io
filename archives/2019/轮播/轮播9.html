@@ -59,26 +59,25 @@
 
 	<div id="app">
 		<ul></ul>
-		<p>本例只引用了4张图片作为展示，所以有重复，实际项目可以根据具体情况修改</p>
 	</div>
 
-	<script src="../js/itween.js"></script>
+	<script src="js/itween.js"></script>
 	<script type="text/javascript">
 		window.onload = function () {
 			let app = document.querySelector('#app');
 			let ul = app.querySelector('ul');
 
 			let arr = [{
-				img: '../img/1.jpg',
+				img: 'img/1.jpg',
 				title: '图片1'
 			}, {
-				img: '../img/2.jpg',
+				img: 'img/2.jpg',
 				title: '图片2'
 			}, {
-				img: '../img/3.jpg',
+				img: 'img/3.jpg',
 				title: '图片3'
 			}, {
-				img: '../img/4.jpg',
+				img: 'img/4.jpg',
 				title: '图片4'
 			}];
 
@@ -95,10 +94,12 @@
 				`
 			}).join('')
 			
+
+
 			let lis = document.querySelectorAll('li');
 
 			// 定时
-			let temp = 0, r = 0;
+			let temp = null, r = 0;
 			autoPlay(lis[r],r)
 			setInterval(function () {
 				// 相邻两次随机不能相同
@@ -123,8 +124,7 @@
 				});
 				// 首次flag为undefined
 				if(!el.flag){
-					css(div[0],'z-index',0);
-					css(div[1],'z-index',1);
+					css(div[0],'translateY',-180);
 					
 					itween({
 						el:div[1],
@@ -132,16 +132,27 @@
 						cb(){
 							el.flag = true;
 						}
+					});
+
+					itween({
+						el:div[0],
+						attr:{translateY:0},
 					})
+
+
 				}else{
-					css(div[0], 'z-index', 1);
-					css(div[1], 'z-index', 0);
+					css(div[1], 'translateY', 180);
 					itween({
 						el: div[0],
 						attr: { translateY: -180 },
 						cb() {
 							el.flag = false;
 						}
+					});
+
+					itween({
+						el: div[1],
+						attr: { translateY: 0 },
 					})
 				}
 				

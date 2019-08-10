@@ -260,17 +260,18 @@
 						}
 
 					}
-					// clearInterval(this.timer);
-					// this.timer = setInterval(autoPlay, 2000);
-					// this.wrap.addEventListener("mouseover", () => {
-					// 	clearInterval(this.timer);
-					// })
-					// this.wrap.addEventListener("mouseout", () => {
-					// 	this.timer = setInterval(autoPlay, 2000);
-					// })
+
+					// 自动
+					clearInterval(this.timer);
+					this.timer = setInterval(autoPlay, 2000);
+					this.wrap.addEventListener("mouseover", () => {
+						clearInterval(this.timer);
+					})
+					this.wrap.addEventListener("mouseout", () => {
+						this.timer = setInterval(autoPlay, 2000);
+					})
 
 
-					// bindEvent() end
 				}
 
 
