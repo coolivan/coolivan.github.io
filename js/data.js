@@ -16,7 +16,7 @@ let database = [{
             }, {
                 id: 3,
                 pid: 0,
-                title: "设计模式",
+                title: "其他",
             }, {
                 id: 4,
                 pid: 0,
@@ -25,7 +25,12 @@ let database = [{
             {
                 id: 5,
                 pid: 0,
-                title: "算法",
+                title: "React",
+            },
+            {
+                id: 6,
+                pid: 0,
+                title: "Vue",
             },
             // 时钟
             {
@@ -46,6 +51,12 @@ let database = [{
                 href: '../archives/2019/时钟/时钟.4.html'
             },
             // 轮播
+             {
+                 id: 201,
+                 pid: 2,
+                 title: "轮播1",
+                 href: '../archives/2019/轮播/轮播1.html'
+             },
             {
                 id: 202,
                 pid: 2,
@@ -100,31 +111,116 @@ let database = [{
                 title: "轮播10",
                 href: '../archives/2019/轮播/轮播10.html'
             },
-            // 设计模式
+            // 其他
             {
                 id: 301,
                 pid: 3,
-                title: "工厂模式",
-                href: '../archives/2019/设计模式/设计-1.工厂模式.html'
+                title: "框选class★★★",
+                href: '../archives/2019/others/框选class.html'
             },
             {
                 id: 302,
                 pid: 3,
-                title: "单例模式",
-                href: '../archives/2019/设计模式/设计-2.单例模式.html'
+                title: "放大镜",
+                href: '../archives/2019/others/放大镜.html'
             },
             {
                 id: 303,
                 pid: 3,
-                title: "适配器模式",
-                href: '../archives/2019/设计模式/设计-3.适配器模式.html'
+                title: "canvas-画板",
+                href: '../archives/2019/others/canvas-画板.html'
             },
             {
                 id: 304,
                 pid: 3,
-                title: "装饰器模式",
-                href: '../archives/2019/设计模式/设计-4.装饰器模式.html'
+                title: "shake-fadeout",
+                href: '../archives/2019/others/shake-fadeout.html'
             },
+            {
+                id: 305,
+                pid: 3,
+                title: "表单表格数据操作",
+                href: '../archives/2019/others/表单表格数据操作.html'
+            },
+            {
+                id: 306,
+                pid: 3,
+                title: "导航",
+                href: '../archives/2019/others/导航.html'
+            },
+            {
+                id: 307,
+                pid: 3,
+                title: "购物车",
+                href: '../archives/2019/others/购物车.html'
+            },
+            {
+                id: 308,
+                pid: 3,
+                title: "内容搬运",
+                href: '../archives/2019/others/内容搬运.html'
+            },
+            {
+                id: 309,
+                pid: 3,
+                title: "评分",
+                href: '../archives/2019/others/评分.html'
+            },
+            {
+                id: 310,
+                pid: 3,
+                title: "全选反选",
+                href: '../archives/2019/others/全选反选.html'
+            },
+            {
+                id: 311,
+                pid: 3,
+                title: "神龙摆尾",
+                href: '../archives/2019/others/神龙摆尾.html'
+            },
+            {
+                id: 31,
+                pid: 3,
+                title: "",
+                href: '../archives/2019/others/.html'
+            },
+            {
+                id: 31,
+                pid: 3,
+                title: "",
+                href: '../archives/2019/others/.html'
+            },
+            {
+                id: 31,
+                pid: 3,
+                title: "",
+                href: '../archives/2019/others/.html'
+            },
+            {
+                id: 31,
+                pid: 3,
+                title: "",
+                href: '../archives/2019/others/.html'
+            },
+            {
+                id: 31,
+                pid: 3,
+                title: "",
+                href: '../archives/2019/others/.html'
+            },
+            {
+                id: 31,
+                pid: 3,
+                title: "",
+                href: '../archives/2019/others/.html'
+            },
+            {
+                id: 31,
+                pid: 3,
+                title: "",
+                href: '../archives/2019/others/.html'
+            },
+           
 
             // 纯CSS效果
             {
@@ -164,17 +260,17 @@ let database = [{
                 href: '../archives/2019/纯css/css-折叠面板.html'
             },
             {
-                id: 501,
-                pid: 5,
-                title: "快速排序",
-                href: '../archives/2019/算法/快速排序.html'
+                id: 407,
+                pid: 4,
+                title: "折叠面板",
+                href: '../archives/2019/纯css/css-水滴按钮.html'
             },
             {
-                id: 502,
-                pid: 5,
-                title: "冒泡排序",
-                href: '../archives/2019/算法/冒泡排序.html'
-            },
+                id: 408,
+                pid: 4,
+                title: "折叠面板",
+                href: '../archives/2019/纯css/css-3d立方体.html'
+            }
         ]
 
     }
