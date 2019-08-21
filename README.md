@@ -1,6 +1,6 @@
 # coolivan.github.io
 
-coolivan‘s blog
+Coolivan‘s blog
 
 本项目为纯原生js，采取了数据驱动的方式，没有使用任何框架。
 
