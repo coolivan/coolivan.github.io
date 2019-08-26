@@ -200,55 +200,55 @@ var database = [{
                 id: 401,
                 pid: 4,
                 title: "模态框",
-                href: '../archives/2019/CSS/css-模态框.html'
+                href: '../archives/2019/纯CSS/css-模态框.html'
             },
             {
                 id: 402,
                 pid: 4,
                 title: "图片预览",
-                href: '../archives/2019/CSS/css-图片预览.html'
+                href: '../archives/2019/纯CSS/css-图片预览.html'
             },
             {
                 id: 403,
                 pid: 4,
                 title: "文字提示",
-                href: '../archives/2019/CSS/css-文字提示.html'
+                href: '../archives/2019/纯CSS/css-文字提示.html'
             },
             {
                 id: 404,
                 pid: 4,
                 title: "选项卡",
-                href: '../archives/2019/CSS/css-选项卡.html'
+                href: '../archives/2019/纯CSS/css-选项卡.html'
             },
             {
                 id: 405,
                 pid: 4,
                 title: "阅读进度",
-                href: '../archives/2019/CSS/css-阅读进度.html'
+                href: '../archives/2019/纯CSS/css-阅读进度.html'
             },
             {
                 id: 406,
                 pid: 4,
                 title: "折叠面板",
-                href: '../archives/2019/CSS/css-折叠面板.html'
+                href: '../archives/2019/纯CSS/css-折叠面板.html'
             },
             {
                 id: 407,
                 pid: 4,
                 title: "水滴按钮",
-                href: '../archives/2019/CSS/css-水滴按钮.html'
+                href: '../archives/2019/纯CSS/css-水滴按钮.html'
             },
             {
                 id: 408,
                 pid: 4,
                 title: "3d立方体",
-                href: '../archives/2019/CSS/css-3d立方体.html'
+                href: '../archives/2019/纯CSS/css-3d立方体.html'
             },
             {
-                id: 409,
+                id: 410,
                 pid: 4,
                 title: "轮播",
-                href: '../archives/2019/CSS/css-轮播.html'
+                href: '../archives/2019/纯CSS/css-轮播.html'
             },
             // 动画 /////////////////////////////////////////
             {
