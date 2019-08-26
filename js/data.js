@@ -244,6 +244,12 @@ var database = [{
                 title: "3d立方体",
                 href: '../archives/2019/CSS/css-3d立方体.html'
             },
+            {
+                id: 409,
+                pid: 4,
+                title: "轮播",
+                href: '../archives/2019/CSS/css-轮播.html'
+            },
             // 动画 /////////////////////////////////////////
             {
                 id: 501,
