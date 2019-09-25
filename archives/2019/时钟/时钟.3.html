@@ -1084,7 +1084,7 @@
 					} else if (i < 11) {
 						html += `<td class="${current}" data-end="${startYear + 10 * i - 1}">${startYear + 10 * (i - 1)}-${startYear + 10 * i - 1}</td>${tr}`
 					} else {
-						html += `<td class="other">${startYear + 10 * (i - 1)}-${startYear + 10 * (i - 1) - 1}</td>${tr}`
+						html += `<td class="other" data-end="${startYear + 10 * (i - 1) - 1}">${startYear + 10 * (i - 1)}-${startYear + 10 * (i - 1) - 1}</td>${tr}`
 					}
 				}
 				el.innerHTML = html + '</tbody></table>';

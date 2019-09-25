@@ -56,13 +56,13 @@ var database = [{
             }, {
                 id: 102,
                 pid: 1,
-                title: "仿win7日历",
+                title: "win7日历",
                 href: '../archives/2019/时钟/时钟.3.html'
             },
             {
                 id: 103,
                 pid: 1,
-                title: "仿抖音罗盘",
+                title: "罗盘日历",
                 href: '../archives/2019/时钟/时钟.4.html'
             },
             // 轮播
